@@ -1,0 +1,16 @@
+.block-container {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 172px;
+  padding: 16px 0;
+  width: 354px;
+  border: solid 1px #efefef;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
