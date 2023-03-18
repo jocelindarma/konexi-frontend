@@ -3,18 +3,14 @@
   display: flex;
   gap: 107px;
   width: 322px;
+  height: 32px;
 }
 
 .header {
   align-items: center;
-  background-color: transparent;
   display: flex;
-  flex-direction: row;
-  flex-shrink: 1;
   gap: 12px;
-  justify-content: flex-start;
   min-width: 191px;  
-  width: auto;
 }
 
 .gsheets-icon {
@@ -27,15 +23,12 @@
 }
 
 .gsheets-icon img {
-  padding: 0 8px;
+  padding: 8px;
 }
 
 .header-text {
   letter-spacing: 0;
   line-height: normal;
-  margin-bottom: 2px;
-  min-height: 16px;
-  min-width: 147px;
 }
 
 .trash-button {
@@ -48,5 +41,5 @@
 }
 
 .trash-button img {
-  padding: 0 4px;
+  padding: 4px;
 }
