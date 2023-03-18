@@ -1,0 +1,41 @@
+.google-account {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-height: 57px;
+  width: 322px;
+}
+
+.google-account-text {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 13px;
+}
+
+.account-name {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  gap: 208px;
+  height: 36px;
+  justify-content: flex-end;
+  min-width: 322px;
+  border: solid 1px #efefef;
+}
+
+.name {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  min-height: 13px;
+  width: 76px;
+  padding: 0 8px;
+}
+
+.icons-1 {
+  height: 20px;
+  width: 20px;
+}

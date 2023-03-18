@@ -2,6 +2,7 @@
 
 :root {
   --black: rgba(0, 0, 0, 1);
+  --shark: rgba(38, 38, 38, 1);
   --gunsmoke: rgba(131, 131, 131, 1);
   --white: rgba(255, 255, 255, 1);
 
@@ -28,8 +29,48 @@
   font-style: normal;
 }
 
+.figtree-semi-bold-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.figtree-medium-gunsmoke-10px {
+  color: var(--gunsmoke);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.figtree-medium-shark-11px {
+  color: var(--shark);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.figtree-semi-bold-shark-11px {
+  color: var(--shark);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+
 .figtree-semi-bold-black-13px {
   color: var(--black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.figtree-semi-bold-gunsmoke-10px {
+  color: var(--gunsmoke);
   font-family: var(--font-family-figtree);
   font-size: var(--font-size-l);
   font-weight: 600;

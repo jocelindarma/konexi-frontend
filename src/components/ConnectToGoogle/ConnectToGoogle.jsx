@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import GoogleIcon from "../../assets/google-icon.svg";
-import "./ConnectToGoogle.css"
+import "./ConnectToGoogle.css";
 
 export const ConnectToGoogle = () => {
   return (
@@ -19,10 +19,8 @@ export const ConnectToGoogle = () => {
         </div>
       </div>
       <div className="connect-button">
-        <div className="button-text figtree-semi-bold-white-10px">
-          Connect
-        </div>
+        <div className="button-text figtree-semi-bold-white-10px">Connect</div>
       </div>
     </div>
-  )
-}
+  );
+};
