@@ -1,9 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import GoogleIcon from "../../assets/google-icon.svg";
+import { ConnectFlowNode } from "../ConnectFlowNode/ConnectFlowNode";
 import "./ConnectToGoogle.css";
 
 export const ConnectToGoogle = () => {
+  const[connect, setConnect] = useState(false);
+  
+  const handleClick = () => {
+    setConnect(!connect);
+  }
+
   return (
+    connect ? <ConnectFlowNode /> :
     <div className="connect-container">
       <div className="connect-body">
         <div className="google-icon">
@@ -19,7 +27,7 @@ export const ConnectToGoogle = () => {
         </div>
       </div>
       <div className="connect-button">
-        <div className="button-text figtree-semi-bold-white-10px">Connect</div>
+        <div className="button-text figtree-semi-bold-white-10px" onClick={handleClick}>Connect</div>
       </div>
     </div>
   );

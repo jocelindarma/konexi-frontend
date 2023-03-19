@@ -4,7 +4,6 @@
 }
 
 .connect-container {
-  align-items: flex-start;
   background-color: #fcfcfc;
   border-radius: 8px;
   display: flex;
@@ -68,6 +67,7 @@
   height: 24px;
   width: 60px;
   padding: 6.5px 10px;
+  cursor: pointer;
 }
 
 .button-text {
