@@ -1,7 +1,7 @@
 .google-account {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
   min-height: 57px;
   width: 322px;
@@ -15,14 +15,13 @@
 }
 
 .account-name {
-  align-items: center;
-  background-color: var(--white);
-  border-radius: 5px;
   display: flex;
-  gap: 208px;
-  height: 36px;
+  align-items: center;
   justify-content: flex-end;
+  gap: 208px;
   min-width: 322px;
+  height: 36px;
+  border-radius: 5px;
   border: solid 1px #efefef;
 }
 
@@ -36,15 +35,15 @@
   padding: 0 8px;
 }
 
-.icons-1 {
+.export-file-icons {
   height: 20px;
   width: 20px;
 }
 
 .file {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
   min-height: 53px;
   width: 322px;
@@ -52,19 +51,19 @@
 }
 
 .file-selector {
-  align-items: center;
-  background-color: var(--white);
-  border-radius: 4px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 133px;
-  height: 32px;
   min-width: 322px;
+  height: 32px;
+  border-radius: 4px;
   border: solid 1px #efefef;
 }
 
 .sheetname {
-  align-items: center;
   display: flex;
+  align-items: center;
   gap: 8px;
   min-width: 84px;
   padding: 0 8px;
@@ -80,21 +79,25 @@
 }
 
 .tab-component {
-  align-items: center;
   display: flex;
+  align-items: center;
   gap: 8px;
   min-width: 89px;
 }
 
 .tab {
-  align-items: center;
-  background-color: #f5f5f5;
-  border-radius: 24px;
   display: flex;
-  gap: 4px;
-  height: 24px;
+  align-items: center;
   justify-content: flex-end;
+  gap: 4px;
   min-width: 61px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+}
+
+.tab img {
+  cursor: pointer;
 }
 
 .tab-one {
@@ -107,21 +110,22 @@
 }
 
 .export {
-  align-items: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8px;
   min-height: 52px;
   width: 322px;
 }
 
 .export-button {
+  display: flex;
   align-items: flex-start;
   background-color: #2383f3;
   border-radius: 5px;
-  display: flex;
   height: 32px;
   min-width: 322px;
+  cursor: pointer;
 }
 
 .export-text {

@@ -20,28 +20,28 @@ export const ExportFile = () => {
   return (
     <div className="export-file-container">
       <div className="google-account">
-        <div className="google-account-text figtree-semi-bold-shark-11px">
+        <span className="google-account-text figtree-semi-bold-shark-11px">
           Google Account
-        </div>
+        </span>
         <div className="account-name">
-          <div className="name figtree-medium-shark-11px">Account Name</div>
-          <img className="icons-1" src={ChevronDown} alt="Chevron Down" />
+          <span className="name figtree-medium-shark-11px">Account Name</span>
+          <img className="export-file-icons" src={ChevronDown} alt="Chevron Down" />
         </div>
       </div>
       <div className="file">
-        <div className="file-text figtree-semi-bold-shark-11px">File</div>
+        <span className="file-text figtree-semi-bold-shark-11px">File</span>
         <div className="file-selector">
           <div className="sheetname">
-            <img className="icons-1" src={GSheetsIcon} alt="GSheets" />
-            <div className="sheetname-text figtree-medium-shark-11px">
+            <img className="export-file-icons" src={GSheetsIcon} alt="GSheets" />
+            <span className="sheetname-text figtree-medium-shark-11px">
               sheetname
-            </div>
+            </span>
           </div>
           <div className="tab-component">
             <div className="tab">
-              <div className="tab-one figtree-semi-bold-gunsmoke-10px">
+              <span className="tab-one figtree-semi-bold-gunsmoke-10px">
                 Tab 1
-              </div>
+              </span>
               <img
                 className="icons"
                 src={ChevronDown}
@@ -49,7 +49,7 @@ export const ExportFile = () => {
                 onClick={handleTabMenuToggle}
               />
             </div>
-            <img className="icons-1" src={CancelIcon} alt="Cancel" />
+            <img className="export-file-icons" src={CancelIcon} alt="Cancel" />
           </div>
         </div>
       </div>
@@ -65,9 +65,9 @@ export const ExportFile = () => {
         </div>
         {isTabMenuOpen ? <TabMenu /> : <></>}
         {isExport ? (
-          <div className="last-export figtree-medium-gunsmoke-10px">
+          <span className="last-export figtree-medium-gunsmoke-10px">
             Last export 14h ago
-          </div>
+          </span>
         ) : (
           <></>
         )}

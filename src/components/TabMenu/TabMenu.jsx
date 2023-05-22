@@ -7,7 +7,7 @@ export const TabMenu = () => {
   return (
     <div className='tab-menu figtree-medium-black-11px'>
       <div className='search-input'>
-        <img className='icons' src={SearchIcon}/>
+        <img className='icons' src={SearchIcon} alt="Search"/>
         <div className='search figtree-medium-gunsmoke-10px'>
           Search
         </div>
@@ -16,7 +16,7 @@ export const TabMenu = () => {
         <div className='tab-1 figtree-medium-black-11px'>
           Tab 1
         </div>
-        <img className="icons" src={CheckIcon}/>
+        <img className="icons" src={CheckIcon} alt="Check"/>
       </div>
       <div className='tab-2 figtree-medium-black-11px'>
         Tab 2
