@@ -1,0 +1,73 @@
+.tab-menu {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px #0000000f;
+  display: flex;
+  flex-direction: column;
+  left: 225px;
+  min-height: 132px;
+  padding: 4px 0;
+  position: absolute;
+  top: 0;
+  width: 170px;
+}
+
+.search-input {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  gap: 4px;
+  height: 28px;
+  margin-left: 4px;
+  min-width: 162px;
+  padding: 0 8px;
+}
+
+.search {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  min-height: 12px;
+  white-space: nowrap;
+  width: 32px;
+}
+
+.menu-item {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  gap: 105px;
+  height: 28px;
+  justify-content: flex-end;
+  margin-top: 4px;
+  min-width: 162px;
+}
+
+.tab-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2px;
+  min-height: 13px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.tab-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 16px;
+  margin-top: 10px;
+  min-height: 13px;
+  white-space: nowrap;
+}
+
+.tab-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 16px;
+  margin-top: 19px;
+  min-height: 13px;
+  white-space: nowrap;
+}

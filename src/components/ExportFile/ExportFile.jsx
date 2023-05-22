@@ -2,6 +2,7 @@ import React from 'react';
 import ChevronDown from "../../assets/chevron-down.svg"
 import GSheetsIcon from "../../assets/sheets-icon.svg";
 import CancelIcon from "../../assets/cancel-icon.svg";
+import { TabMenu } from "../TabMenu/TabMenu";
 import "./ExportFile.css";
 
 export const ExportFile = () => {
@@ -31,7 +32,7 @@ export const ExportFile = () => {
           </div>
           <div className='tab-component'>
             <div className='tab'>
-              <div className='tab-1 figtree-semi-bold-gunsmoke-10px'>
+              <div className='tab-one figtree-semi-bold-gunsmoke-10px'>
                 Tab 1
               </div>
               <img className='icons' src={ChevronDown} alt="Chevron Down"/>
@@ -44,6 +45,7 @@ export const ExportFile = () => {
         <div className='export-button'>
           <div className='export-text figtree-semi-bold-white-11px'>
             Export
+            <TabMenu/>
           </div>
         </div>
         <div className='last-export figtree-medium-gunsmoke-10px'>

@@ -21,6 +21,14 @@
   font-style: normal;
 }
 
+.figtree-medium-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+
 .figtree-semi-bold-white-10px {
   color: var(--white);
   font-family: var(--font-family-figtree);
