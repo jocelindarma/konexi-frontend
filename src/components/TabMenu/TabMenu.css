@@ -5,11 +5,10 @@
   box-shadow: 0px 4px 12px #0000000f;
   display: flex;
   flex-direction: column;
-  left: 225px;
+  left: 250px;
   min-height: 132px;
   padding: 4px 0;
   position: absolute;
-  top: 0;
   width: 170px;
 }
 
@@ -21,8 +20,9 @@
   gap: 4px;
   height: 28px;
   margin-left: 4px;
-  min-width: 162px;
+  min-width: 143px;
   padding: 0 8px;
+  border: solid 1px #efefef;
 }
 
 .search {
