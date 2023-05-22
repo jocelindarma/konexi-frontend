@@ -4,28 +4,29 @@
 }
 
 .connect-container {
-  border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  width: 322px;
   height: 96px;
   padding: 12px 0;
-  width: 322px;
+  border-radius: 8px;
 }
 
 .connect-body {
-  align-items: flex-start;
-  align-self: center;
   display: flex;
+  align-items: flex-start;
   gap: 12px;
   width: 298px;
+  align-self: center;
 }
 
 .google-icon {
-  align-items: center;
-  background-color: #f5f5f5;
-  border-radius: 80px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 50%;
   height: 36px;
   width: 36px;
 }
@@ -38,33 +39,30 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  height: 33px;  
+  height: 33px;
+  width: 250px;
+}
+
+.connect-text-1,
+.connect-text-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  height: auto;
   width: 250px;
 }
 
 .connect-text-1 {
-  letter-spacing: 0;
-  line-height: normal;
   margin-top: -1px;
-  height: 16px;
-  width: 250px;
-}
-
-.connect-text-2 {
-  letter-spacing: 0;
-  line-height: normal;
-  height: 13px;
-  width: 250px;
 }
 
 .connect-button {
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   background-color: #2383f3;
   border-radius: 4px;
-  display: flex;
-  margin-left: 12px;
-  height: 24px;
   width: 60px;
+  height: 24px;
+  margin-left: 12px;
   cursor: pointer;
 }
 

@@ -11,14 +11,15 @@
   align-items: center;
   display: flex;
   gap: 12px;
-  min-width: 191px;  
+  min-width: 191px;
 }
 
 .gsheets-icon {
   align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: #8ed1b12b;
   border-radius: 5px;
-  display: flex;
   height: 32px;
   min-width: 32px;
 }
@@ -33,10 +34,11 @@
 }
 
 .trash-button {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #efefef;
   border-radius: 4px;
-  display: flex;
   height: 24px;
   min-width: 24px;
 }
