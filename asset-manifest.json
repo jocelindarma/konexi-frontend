@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/konexi-frontend/static/css/main.da5d770a.css",
+    "main.js": "/konexi-frontend/static/js/main.9a434a3e.js",
+    "static/js/787.7449d23c.chunk.js": "/konexi-frontend/static/js/787.7449d23c.chunk.js",
+    "static/media/sheets-icon.svg": "/konexi-frontend/static/media/sheets-icon.b1c3e1f37b60fc62e812194bce8074b3.svg",
+    "static/media/google-icon.svg": "/konexi-frontend/static/media/google-icon.0e4698e67f3e957d1d3325a9f4269699.svg",
+    "static/media/node-icon.svg": "/konexi-frontend/static/media/node-icon.20e80c77b628024d97cceea4b3cbf888.svg",
+    "index.html": "/konexi-frontend/index.html",
+    "static/media/trash-icon.svg": "/konexi-frontend/static/media/trash-icon.4932c81aaf7e5670f16975bb81ef3e84.svg",
+    "static/media/search-icon.svg": "/konexi-frontend/static/media/search-icon.7db3802c61ec7c4fe8624deff11b9226.svg",
+    "static/media/cancel-icon.svg": "/konexi-frontend/static/media/cancel-icon.0db7c4d0a8128f89adc461b2bb270cf5.svg",
+    "static/media/chevron-down.svg": "/konexi-frontend/static/media/chevron-down.9127b5aa2e5c9b653fd6a3281ac0212d.svg",
+    "static/media/check-icon.svg": "/konexi-frontend/static/media/check-icon.8d92381248b3cbe2fda4fe5533da0b20.svg",
+    "main.da5d770a.css.map": "/konexi-frontend/static/css/main.da5d770a.css.map",
+    "main.9a434a3e.js.map": "/konexi-frontend/static/js/main.9a434a3e.js.map",
+    "787.7449d23c.chunk.js.map": "/konexi-frontend/static/js/787.7449d23c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da5d770a.css",
+    "static/js/main.9a434a3e.js"
+  ]
+}
